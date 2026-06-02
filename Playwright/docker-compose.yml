@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  dgs-kocu-bot:
+    build: .
+    container_name: dgs_playwright_bot
+    volumes:
+      - ./DGS_Veri_Arsivi:/app/DGS_Veri_Arsivi
